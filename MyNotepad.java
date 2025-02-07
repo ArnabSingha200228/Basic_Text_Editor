@@ -166,11 +166,11 @@ class MyNotepad
             byte b[]=s.getBytes();
             fs.write(b);
             sf=true;
-            JOptionPane.showMessageDialog(null,"File Saved!");
+            JOptionPane_showMessageDialog(null,"File Saved!");
           }
           catch(Exception ee)
           {
-            JOptionPane.showMessageDialog(null,"Error!");
+            JOptionPane_showMessageDialog(null,"Error!");
           }
         }
       }
@@ -187,6 +187,6 @@ class MyNotepad
   }
   public static void main(String args[])
   {
-    new MyNotepad();
+    new MyNotpad();
   }
 }
